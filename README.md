@@ -1,1 +1,1 @@
-# python-practice
+collection-of-python-exercises
