@@ -1,10 +1,7 @@
-# Ask player names
 name_p1 = input("Enter player 1's name: ")
 name_p2 = input("Enter player 2's name: ")
 
-# Loop until a player wins
 while True:
-    # Print toothpicks
     toothpicks = 13
     result = "|" * toothpicks
     print(result)
@@ -21,7 +18,6 @@ while True:
             print(f"There are {toothpicks} toothpicks left.")
         else:
             print(f"{name_p1} wins!")
-            print(f"GAME OVER!")
             break
 
         reply_p2 = int(input(f"How many do you take, {name_p2}? "))
@@ -34,6 +30,7 @@ while True:
             print(f"There are {toothpicks} toothpicks left.")        
         else:
             print(f"{name_p2} wins!")
-            print(f"GAME OVER!")
             break
     break
+
+print(f"GAME OVER!")
